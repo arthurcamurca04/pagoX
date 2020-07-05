@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pagoX/routes/rotas.dart';
 
 class DetelhesProdutoScreen extends StatefulWidget {
   @override
@@ -92,7 +93,9 @@ class _DetelhesProdutoScreenState extends State<DetelhesProdutoScreen> {
                   horizontal: 40,
                   vertical: 16,
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).pushNamed(Routes.MATCH);
+                },
                 color: Theme.of(context).accentColor,
                 child: Text(
                   'PROCURAR VENDEDORES',

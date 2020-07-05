@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:pagoX/routes/rotas.dart';
-import 'package:pagoX/screens/home_screen.dart';
-import 'package:pagoX/widgets/wrapper.dart';
 
+import 'routes/rotas.dart';
+import 'screens/match_screen.dart';
+import 'screens/negociation_screen.dart';
+import 'widgets/wrapper.dart';
+import 'screens/home_screen.dart';
 import 'screens/cadastrar_conta.dart';
 import 'screens/detalhes_produto_screen.dart';
 import 'screens/login.dart';
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         Routes.LOGIN: (_) => LoginScreen(),
         Routes.PRODUCT_DETAILS : (_) => DetelhesProdutoScreen(),
         Routes.TUTORIAL: (_) => TutorialPage(),
+        Routes.MATCH: (_) => MatchScreen(),
+        Routes.NEGOCIATION: (_) => NegocitationScreen(),
       },
     );
   }

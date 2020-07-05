@@ -5,4 +5,6 @@ class Routes {
   static const ADD_USER = 'add-user';
   static const TUTORIAL = 'tutorial';
   static const PRODUCT_DETAILS = 'product-details';
+  static const MATCH = 'match';
+  static const NEGOCIATION = 'negociation';
 }
